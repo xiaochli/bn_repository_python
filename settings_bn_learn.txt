@@ -1,0 +1,3 @@
+gobnilp/scoring/palim = 2
+gobnilp/outputfile/adjacencymatrix = "bn.mat"
+gobnilp/delimiter = ","
