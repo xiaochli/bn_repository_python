@@ -1,6 +1,12 @@
-## To install package bnlearn, run:
-## install.packages("bnlearn");
-library(bnlearn);
+## Check package bnlearn and install it if not already
+if(!require('bnlearn')){
+    install.packages('bnlearn')
+    #if(!require('bnlearn')){
+    #  stop("Package not found")
+    #}
+}
+
+library('bnlearn');
 
 args = commandArgs(trailingOnly=TRUE)
 
